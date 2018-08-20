@@ -1,7 +1,14 @@
 """
 filename : CheckKRCERT.py
-KRCERT 보안공지 게시판 첫 페이지에 있는 첫 번째 게시물(최신) 정보 가져오기
+KRCERT 보안공지 게시판 첫 페이지에 있는 최신 게시물 정보를 텔레그램으로 보내기
 """
+# 텔레그램으로 보낼 때 필수 정보
+# Bot name: alarm4you_bot
+# Bot token : 000000000:AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+# Channel name : Financial_IT_Security
+# Channel's chat_id : @Financial_IT_Security
+# Teleg_URL = "https://api.telegram.org/봇's token/sendMessage?chat_id=@채널명&text="
+
 from bs4 import BeautifulSoup
 from urllib.request import urlopen
 import urllib
@@ -21,7 +28,7 @@ DOMAIN = "\nhttps://www.krcert.or.kr"
 Teleg_URL = "https://api.telegram.org/bot000000000:AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/sendMessage?chat_id=@Financial_IT_Security&text="
 
 # telegram url(bot)    
-Teleg_URL = "https://api.telegram.org/bot000000000:AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/sendMessage?chat_id=65875188&text="
+#Teleg_URL = "https://api.telegram.org/bot000000000:AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/sendMessage?chat_id=65875188&text="
 
 filename = 'LatestNoKRCERT.txt'   
 
