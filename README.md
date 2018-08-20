@@ -8,3 +8,10 @@
     주안점 : 
     - Pandas 사용
     - Pandas로 긁어온 웹페이지에서 제목 추출
+
+    텔레그램으로 보낼 때 필수 정보
+    Bot name: alarm4you_bot
+    Bot token : 000000000:AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+    Channel name : Financial_IT_Security
+    Channel's chat_id : @Financial_IT_Security
+    Teleg_URL = "https://api.telegram.org/봇's token/sendMessage?chat_id=@채널명&text="
