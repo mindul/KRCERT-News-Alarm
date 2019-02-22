@@ -27,7 +27,7 @@ DOMAIN = "\nhttps://www.krcert.or.kr"
 # 텔레그램 URL(@Financial_IT_Security)
 Teleg_URL = "https://api.telegram.org/bot000000000:AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/sendMessage?chat_id=@Financial_IT_Security&text="
 
-# telegram url(bot)    
+# telegram url(bot, test용)    
 #Teleg_URL = "https://api.telegram.org/bot000000000:AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/sendMessage?chat_id=65875188&text="
 
 filename = 'LatestNoKRCERT.txt'   
